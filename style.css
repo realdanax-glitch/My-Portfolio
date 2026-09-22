@@ -260,3 +260,137 @@ a:hover {
     padding-top: 2rem;
   }
 }
+@media (max-width: 480px) {
+  .container {
+    padding: 1rem;
+    padding-bottom: 2rem;
+  }
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+  .hero-container-h1 {
+    color: #7692ff;
+    font-size: 1rem;
+  }
+  .hero-cont-img > img {
+    width: 280px;
+    height: 280px;
+  }
+  .hero-cont-p > p {
+    padding-top: 10px;
+    font-size: 1rem;
+    width: 80%;
+  }
+  .works-container h2 {
+    font-size: 2rem;
+    color: #091540;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+    gap: 50px;
+    padding-top: 2rem;
+  }
+  .cards img {
+    width: 200px;
+  }
+  .cards a {
+    color: #7692ff;
+    text-decoration: none;
+  }
+  .cards a:visited,
+  a:hover {
+    color: #7692ff;
+  }
+  .card-1 {
+    width: 250px;
+    background-color: #091540;
+    padding: 1.5rem;
+    border-radius: 2rem;
+  }
+  .card-2 {
+    width: 250px;
+    background-color: #091540;
+    padding: 1.5rem;
+    border-radius: 2rem;
+  }
+  .cards h3 {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .cards p {
+    font-size: 1rem;
+  }
+  .resume-h2 {
+    font-size: 1rem;
+    color: #091540;
+  }
+  .tabs {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    row-gap: 4rem;
+    column-gap: 5rem;
+    color: #091540;
+    padding-top: 1rem;
+    width: 85%;
+  }
+  .tabs h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .tabs p {
+    font-size: 1rem;
+  }
+  .tabs li {
+    list-style: none;
+    font-size: 1rem;
+  }
+  .About h2 {
+    font-size: 2rem;
+  }
+  .About p {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 85%;
+  }
+  .mail h2 {
+    font-size: 2rem;
+  }
+  .contact-btn {
+    padding: 10px;
+    background-color: #1b2cc1;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #eff0f1;
+    font-size: 1rem;
+  }
+  .mail a:hover,
+  a:visited {
+    color: #fff;
+  }
+  .mail p {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+  .socials img {
+    border-radius: 70px;
+    height: 50px;
+  }
+  .socials a {
+    color: #091540;
+  }
+  .socials a:visited,
+  a:hover {
+    color: #091540;
+  }
+  footer {
+    font-size: 10px;
+  }
+}
